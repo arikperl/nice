@@ -1,7 +1,7 @@
 # Nice Jenkins docker image details
 This image was created from an Ubuntu base image (from dockerhub). 
-Jenkins was installed on top of it, configured with git, maven and some  and a pipeline jobs was created .
-After the changes were commited, the new image was built and pushed the my dockerhub repository.
+Jenkins was installed on top of it, configured with git, maven and some plugins. A pipeline job was created .
+After the changes were commited, the new image was built and pushed to a dockerhub public repository.
 ### Running Jenkins container using this image
 There are 2 options:
 ##### Option A
@@ -19,7 +19,7 @@ If you wish to change the port exposed by the container, just change the first n
 docker run -d -p 90:1234 arikperl/nice-hw:jenkins-arik
 ```
 
-Will exposed port 90 to the host machine.
+Will expose port 90 to the host machine.
 If you are running the container on a remote machine, change "localhost" to the IP address/DNS name of the remote host and make sure the exposed port is accessible (FW/SG/etc.)
 
 ##### Option B
