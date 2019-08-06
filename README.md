@@ -47,7 +47,7 @@ The same instructions regrding exposed port and IP address where you can access 
 
 ## Managing and running piplines
 There is one pipline defined, called: maven-samples.
-This pipline runs the pipline script:
+This pipline runs the script:
 ``` sh
 node {
   git url: 'https://github.com/gabrielf/maven-samples.git'
