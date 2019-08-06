@@ -1,4 +1,4 @@
-# Nice's Jenkins docker image details
+# Nice Jenkins docker image details
 This image was created from an Ubuntu base image (from dockerhub). 
 Jenkins was installed on top of it, configured with git, maven and some  and a pipeline jobs was created .
 After the changes were commited, the new image was built and pushed the my dockerhub repository.
