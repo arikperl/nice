@@ -46,7 +46,7 @@ docker-compose up
 The same instructions regrding exposed port and IP address where you can access Jenkins apply here (port is changed in the docker-compose YAML file).
 
 ## Managing and running piplines
-There is one pipline define, called: maven-samples.
+There is one pipline defined, called: maven-samples.
 This pipline runs the pipline script:
 ``` sh
 node {
